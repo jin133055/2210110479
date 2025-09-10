@@ -1,0 +1,15 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "main": "dist/logger.js",
+  "types": "dist/logger.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
