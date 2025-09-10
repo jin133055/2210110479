@@ -20,22 +20,5 @@ A user-friendly, client-side URL shortener application built with **React**, **T
 
 ---
 
-## Folder Structure
-
-src/
-├── components/
-│ ├── UrlShortenerForm.tsx # Form for creating short URLs
-│ ├── UrlList.tsx # Displays list of shortened URLs
-│ ├── Analytics.tsx # Displays URL click analytics
-│ ├── RedirectHandler.tsx # Handles short URL redirection
-├── utils/
-│ ├── storage.ts # Client-side storage for URLs
-│ └── logger.ts # Logging middleware
-├── types.ts # TypeScript types
-├── App.tsx # Main app component
-├── index.tsx # React DOM entry point
-├── App.css # Global styles
-└── index.css # Index styles
-
 Install dependencies: npm install
 Start the development server: npm run dev
