@@ -1,0 +1,33 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a nice, clean font (Material UI defaults to Roboto, so let’s use it) */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5; /* soft gray background */
+  color: #333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Make sure app container takes full height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Links default style */
+a {
+  text-decoration: none;
+  color: #1976d2; /* Material UI primary blue */
+}
+
+a:hover {
+  text-decoration: underline;
+}

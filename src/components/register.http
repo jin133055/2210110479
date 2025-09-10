@@ -1,0 +1,12 @@
+POST http://20.244.56.144/evaluation-service/register
+   Content-Type: application/json
+
+   {
+     "email": "pj764@snu.edu.in",
+     "name": "Preyanshe Jindal",
+     "mobileNo": "9868247245",
+     "githubUsername": "jin133055",
+     "rollNo": "2210110479",
+     "accessCode": "XvADfs"
+   }
+   
